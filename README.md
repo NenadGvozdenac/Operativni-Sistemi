@@ -32,7 +32,7 @@
 
 
 # Nacin pokretanja programa
-<code>git clone https://github.com/NenadGvozdenac/Operativni-Sistemi </code>
-<code>cd termin_xx</code>
-<code>g++ -pthread -o program NAME.cpp</code>
-<code>./program</code>
+1. <code>git clone https://github.com/NenadGvozdenac/Operativni-Sistemi </code>
+2. <code>cd termin_xx</code>
+3. <code>g++ -pthread -o program NAME.cpp</code>
+4. <code>./program</code>
