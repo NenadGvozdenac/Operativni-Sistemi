@@ -29,3 +29,10 @@
 2. <code>function<T(T1, T2...)></code>
 3. <code>regex(std::string)</code>
 4. Lambda funkcije
+
+
+# Nacin pokretanja programa
+<code>git clone https://github.com/NenadGvozdenac/Operativni-Sistemi </code>
+<code>cd termin_xx</code>
+<code>g++ -pthread -o program NAME.cpp</code>
+<code>./program</code>
