@@ -28,4 +28,4 @@
 1. <code>std::chrono</code>
 2. <code>function<T(T1, T2...)></code>
 3. <code>regex(std::string)</code>
-4. <code>[capture](parametres) ->  type {return type; } </code>
+4. Lambda funkcije
