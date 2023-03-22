@@ -42,11 +42,10 @@ retVal prebaci(int izvor, int cilj, double iznos) {
 
     racun1 = racun1 - iznos;
 
-    retVal rV;
-    rV.staro = staraVrednost;
-    rV.novo = racun1;
+    retVal rV({staraVrednost, racun1});
 
-    std::this_thread::sleep_for(500ms);
+    std::chrono::seconds timeToSleep = std::chrono::seconds(1);
+    std::this_thread::sleep_for(timeToSleep);
 
     racun2 = racun2 + iznos;
 
